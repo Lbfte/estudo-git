@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SELETOR POR TAG */
+p{
+    color:rgb(130, 36, 36)
+}
+
+.exemplo-classe{
+    color:rgb(36, 55, 130);
+    font-size: 20px;
+    font-weight: bold;
+}   
+
+#email{
+    border: 2px solid rgb(36, 130, 55);
+    padding: 5px;
+    border-radius: 5px;
+}
