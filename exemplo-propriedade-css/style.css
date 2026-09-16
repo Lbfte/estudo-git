@@ -1,0 +1,100 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(228, 228, 228);
+    color: rgb(22, 22, 22);
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 28px;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+a{
+    color: rgb(146, 63, 74);
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(130, 44, 36);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(31, 31, 31);
+    color:aliceblue
+}
+
+nav a {
+    color: aliceblue;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav url{
+    display: flex;
+    gap: 10px;
+}
+
+#vantagens ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#vantagens li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th {
+    background-color: rgb(130, 44, 36);
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody th, tbody td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #000000;
+    background-color: #dcd8d8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ebe5e5;
+}
+
+tbody tr:hover {
+    background-color: #9e515170;
+}
+main section {
+    margin-bottom: 40px;
+}
